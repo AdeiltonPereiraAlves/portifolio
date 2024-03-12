@@ -1,11 +1,17 @@
 import Card from "../components/Card";
 import Projeto01 from '../../public/projeto01.png'
 import Projeto02 from '../../public/galeria.png'
+import Projeto03 from '../../public/guia.png'
 
 const listaTarefas = "https://adeiltonpereiraalves.github.io/lista04script/";
 const galeriaAnimes = "https://adeiltonpereiraalves.github.io/galeriadeanimes/";
 const guiaTuristico = "https://guiaturistico-mlrwx1qko-adeiltonpereiraalves-projects.vercel.app/";
-let lista = "Lista de Tarefas"
+const guia = "https://guiaturistico-mlrwx1qko-adeiltonpereiraalves-projects.vercel.app/";
+let lista = "Lista de Tarefas";
+let galeriaTitulo = "Galeria de Animes";
+let guiaTitulo = "Guia Turistico";
+
+
 function Xp() {
     return (
         <div className="flex bg-black h-2/3 flex-col items-center">
@@ -17,8 +23,8 @@ function Xp() {
             </div>
             <div className="flex gap-5 justify-center">
                 <Card titlulo={lista} projetos={listaTarefas} img={Projeto01} />
-                <Card titlulo={lista} projetos={galeriaAnimes} img={Projeto02} />
-                <Card titlulo={lista} projetos={guiaTuristico} img={Projeto01} />
+                <Card titlulo={galeriaTitulo} projetos={galeriaAnimes} img={Projeto02} />
+                <Card titlulo={guiaTitulo} projetos={guia} img={Projeto03} />
 
             </div>
 

@@ -10,14 +10,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-     <div className="box-border h-screen w-full ">
-   
-      <Header/>
-      <Content/>
-      <Xp/>
-      <Contato/>
+    <div className="box-border h-screen w-full ">
+
+      <Header />
+      <Content />
+      <Xp />
+      <Contato />
     </div>
-   
+
   )
 }
 

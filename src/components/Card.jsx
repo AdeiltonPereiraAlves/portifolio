@@ -6,7 +6,7 @@ function Card({ titlulo, projetos, img }) {
         <div className="flex w-56 h-64 flex-col">
             <h1 className="text-white p-5">{titlulo}</h1>
             <div>
-                <a href={projetos} target="blank"><img src={img} alt="projeto01" /></a>
+                <a href={projetos} target="blank"><img src={img} alt="projeto01" className="w-48 h-48" /></a>
             </div>
         </div>
     )
