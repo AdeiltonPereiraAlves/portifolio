@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="box-border h-screen w-full ">
+    <div className="box-border h-screen w-full flex-wrap">
 
       <Header />
       <Content />

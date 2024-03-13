@@ -1,6 +1,6 @@
 function Contato(){
     return(
-       <div>
+       <div className="bg-black">
         Contato
        </div>
     )
